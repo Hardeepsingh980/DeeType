@@ -57,5 +57,5 @@ class DeeType:
 
 
 if __name__ == "__main__":
-    d = DeeType(1)
+    d = DeeType([1,"Hello",True,[0,8],{"name":"Hardeep"}])
     print(d.showTypeDict())
